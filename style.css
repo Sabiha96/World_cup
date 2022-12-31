@@ -28,7 +28,7 @@ h1 {
 .header-text {
     position: relative;
     color: #FFFFFF;
-    left: 100px;
+    left: 70px;
 
 }
 
@@ -50,6 +50,6 @@ h1 {
     position: absolute;
     width: 530px;
     height: 550px;
-    left: 790px;
+    left: 770px;
     top: 40px;
 }

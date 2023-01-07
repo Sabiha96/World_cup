@@ -51,5 +51,147 @@ h1 {
     width: 530px;
     height: 550px;
     left: 770px;
-    top: 40px;
+    top: 80px;
+}
+
+/* Sliders section */
+.blackbg {
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    left: 270px;
+    top: 831px;
+
+    background: #161616;
+    border-radius: 10px;
+}
+
+.blackbox {
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    left: 270px;
+    top: 800px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.UM {
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    left: 30px;
+    top: 30px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.AG {
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    left: 300px;
+    top: 920px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.Blog {
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    left: 300px;
+    top: 1020px;
+    background: #DD0700;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.Box1 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 650px;
+    top: 800px;
+    border: 2px solid #FFFFFF;
+}
+
+.Box1 p {
+    position: absolute;
+    left: 20px;
+    top: 211px;
+}
+
+.T-button {
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+
+.clock-icon {
+    position: absolute;
+    top: 280px;
+    left: 2px;
+
+}
+
+.comments-icon {
+    position: absolute;
+    top: 280px;
+    left: 90px;
+}
+
+.Box2 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 975px;
+    top: 800px;
+    border: 2px solid #FFFFFF;
+}
+
+.Box2 p {
+    position: absolute;
+    left: 20px;
+    top: 211px;
+}
+
+.T-button {
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+
+.Box3 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 1315px;
+    top: 800px;
+    border: 2px solid #FFFFFF;
+
+}
+
+.Box3 p {
+    position: absolute;
+    left: 20px;
+    top: 211px;
+}
+
+.T-button {
+    position: absolute;
+    left: 20px;
+    top: 190px;
 }

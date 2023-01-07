@@ -260,3 +260,67 @@ h1 {
     left: 20px;
     top: 190px;
 }
+
+.Box7 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 650px;
+    top: 1599px;
+    border: 2px solid #FFFFFF;
+}
+
+.Box7 p {
+    position: absolute;
+    left: 20px;
+    top: 211px;
+}
+
+.T-button {
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+
+.Box8 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 975px;
+    top: 1599px;
+    border: 2px solid #FFFFFF;
+}
+
+.Box8 p {
+    position: absolute;
+    left: 20px;
+    top: 211px;
+}
+
+.T-button {
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+
+.Box9 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 1315px;
+    top: 1599px;
+    border: 2px solid #FFFFFF;
+
+}
+
+.Box9 p {
+    position: absolute;
+    left: 20px;
+    top: 211px;
+}
+
+.T-button {
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}

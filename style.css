@@ -88,7 +88,23 @@ h1 {
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
+    text-decoration: none;
+    color: #161616;
+
+
 }
+
+.UM>p {
+    text-align: center;
+}
+
+.UM:hover {
+    background-color: #DD0700;
+    color: #FFFFFF;
+}
+
+
+
 
 .AG {
     position: absolute;
@@ -102,6 +118,11 @@ h1 {
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
+}
+
+.AG:hover {
+    background-color: #DD0700;
+    color: #FFFFFF;
 }
 
 .Blog {
@@ -119,6 +140,12 @@ h1 {
     color: #FFFFFF;
 }
 
+.Blog:hover {
+    background-color: #FFFFFF;
+    color: #161616;
+}
+
+/*column*/
 .Box1 {
     position: absolute;
     width: 312px;
@@ -323,4 +350,128 @@ h1 {
     position: absolute;
     left: 20px;
     top: 190px;
+}
+
+/*footer*/
+.footer {
+    position: absolute;
+    width: 2000px;
+    height: 444px;
+    left: 00px;
+    top: 2060px;
+
+    background: #161616;
+
+
+}
+
+.text {
+    position: absolute;
+    width: 95px;
+    height: 60px;
+    left: 868px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+
+
+
+
+
+.other-text {
+
+    position: absolute;
+    left: 21.94%;
+    right: 21.94%;
+    top: 185px;
+    bottom: 5.13%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    font-feature-settings: 'liga' off;
+
+    color: #B9B9B9;
+}
+
+/*card part*/
+
+.sec1 {
+    position: absolute;
+    height: 362px;
+    left: 650px;
+    top: 800px;
+}
+
+
+
+
+
+.sec2 {
+    position: absolute;
+    height: 362px;
+    left: 980px;
+    top: 800px;
+
+}
+
+
+
+
+.sec3 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 1315px;
+    top: 800px;
+
+}
+
+
+
+.sec4 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 650px;
+    top: 1060px;
+
+}
+
+
+
+.sec5 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 978px;
+    top: 1060px;
+
+}
+
+
+
+.sec6 {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 1315px;
+    top: 1060px;
 }

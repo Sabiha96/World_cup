@@ -352,39 +352,7 @@ h1 {
     top: 190px;
 }
 
-/*footer*/
-.footer {
-    position: absolute;
-    width: 2000px;
-    height: 444px;
-    left: 00px;
-    top: 2060px;
 
-    background: #161616;
-
-
-}
-
-.text {
-    position: absolute;
-    width: 95px;
-    height: 60px;
-    left: 868px;
-
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
-
-
-    text-align: center;
-
-    color: #FFFFFF;
-
-
-}
 
 
 
@@ -411,7 +379,7 @@ h1 {
     color: #B9B9B9;
 }
 
-/*card part*/
+/*other part*/
 
 .sec1 {
     position: absolute;
@@ -474,4 +442,94 @@ h1 {
     height: 362px;
     left: 1315px;
     top: 1060px;
+}
+
+/*footer*/
+.footer {
+    position: absolute;
+    width: 2000px;
+    height: 444px;
+    left: 00px;
+    top: 2060px;
+
+    background: #161616;
+
+}
+
+.text {
+    position: absolute;
+    width: 95px;
+    height: 60px;
+    left: 970px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+    top: 50px;
+
+}
+
+
+
+
+
+.socials,
+.footer-menue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 1rem 0 3rem 0;
+
+    list-style: none;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.socials li,
+.footer-menue li {
+    margin: 0 10px;
+    top: 300px;
+    list-style: none;
+}
+
+.socials li a,
+.footer-menue li a {
+    font-size: 2em;
+    color: #B9B9B9;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.socials li a:hover {
+    transform: translateY(-10px);
+}
+
+.socials li {
+    position: relative;
+    top: 270px;
+}
+
+.footer-menue li a {
+    font-size: 1.2em;
+    position: relative;
+    margin: 0 10px;
+    color: #B9B9B9;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+
+
+    top: 300px
 }

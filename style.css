@@ -46,6 +46,12 @@ h1 {
     left: 0px;
 }
 
+.header-part button:hover {
+    background-color: #FFFFFF;
+    color: #161616;
+}
+
+
 .Banner img {
     position: absolute;
     width: 530px;
@@ -110,8 +116,8 @@ h1 {
     position: absolute;
     width: 252px;
     height: 64px;
-    left: 300px;
-    top: 920px;
+    left: 30px;
+    top: 120px;
     background: #FFFFFF;
     border-radius: 10px;
     font-family: 'Poppins';
@@ -129,8 +135,8 @@ h1 {
     position: absolute;
     width: 252px;
     height: 64px;
-    left: 300px;
-    top: 1020px;
+    left: 30px;
+    top: 220px;
     background: #DD0700;
     border-radius: 10px;
     font-family: 'Poppins';
@@ -532,4 +538,329 @@ h1 {
 
 
     top: 300px
+}
+
+/* responsive css*/
+/* Tab view */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header-part {
+        width: 500px;
+        left: 10px;
+        height: 300px;
+        top: 20px;
+        margin-top: 10px;
+        margin-left: 0px;
+        padding: 30px;
+
+    }
+
+    h1 {
+        width: 200px;
+        height: 150px;
+        left: 120px;
+        top: 40px;
+        font-size: 29px;
+
+    }
+
+    .header-text {
+        font-size: 6px;
+        left: 0px;
+    }
+
+    .header-part button {
+        padding: 5px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .Banner img {
+        width: 300px;
+        height: 290px;
+        left: 258px;
+        top: 70px;
+
+    }
+
+    .blackbox {
+        display: none;
+    }
+
+
+
+
+
+    .Box1 {
+        width: 200px;
+        height: 230px;
+        left: 50px;
+        top: 470px;
+        border: 2px solid #FFFFFF;
+        font-size: 10px;
+        background-image: url(Image/Rectangle\ 3.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .Box1 p {
+        top: 140px;
+        left: 10px;
+    }
+
+    .Box1 img {
+        display: none;
+    }
+
+    .T-button {
+        left: auto;
+        top: 110px;
+        margin: 10px;
+        font-size: 10px;
+    }
+
+    .clock-icon {
+        top: 190px;
+
+    }
+
+    .comments-icon {
+        top: 190px;
+        left: 80px;
+    }
+
+    .Box2 {
+        width: 200px;
+        height: 230px;
+        left: 290px;
+        top: 470px;
+        border: 2px solid #FFFFFF;
+        font-size: 10px;
+        background-image: url(Image/Rectangle\ 3.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .Box2 img {
+        display: none;
+    }
+
+    .T-button {
+        left: auto;
+        top: 110px;
+        margin: 10px;
+        font-size: 10px;
+    }
+
+    .Box2 p {
+        top: 140px;
+        left: 10px;
+    }
+
+    .Box3 {
+        width: 200px;
+        height: 230px;
+        left: 50px;
+        top: 740px;
+        border: 2px solid #FFFFFF;
+        font-size: 10px;
+        background-image: url(Image/Rectangle\ 3.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .Box3 img {
+        display: none;
+    }
+
+    .Box3 p {
+        top: 140px;
+        left: 10px;
+    }
+
+    .Box4 {
+        width: 200px;
+        height: 230px;
+        left: 290px;
+        top: 740px;
+        border: 2px solid #FFFFFF;
+        font-size: 10px;
+        background-image: url(Image/Rectangle\ 3.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .Box4 img {
+        display: none;
+    }
+
+    .Box4 p {
+        top: 140px;
+        left: 10px;
+    }
+
+    .Box5 {
+        width: 200px;
+        height: 230px;
+        left: 50px;
+        top: 1020px;
+        border: 2px solid #FFFFFF;
+        font-size: 10px;
+        background-image: url(Image/Rectangle\ 3.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .Box5 img {
+        display: none;
+    }
+
+    .Box5 p {
+        top: 140px;
+        left: 10px;
+    }
+
+    .Box6 {
+        width: 200px;
+        height: 230px;
+        left: 290px;
+        top: 1020px;
+        border: 2px solid #FFFFFF;
+        font-size: 10px;
+        background-image: url(Image/Rectangle\ 3.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .Box6 img {
+        display: none;
+    }
+
+    .Box6 p {
+        top: 140px;
+        left: 10px;
+    }
+
+    .Box7 {
+        width: 200px;
+        height: 230px;
+        left: 50px;
+        top: 1290px;
+        border: 2px solid #FFFFFF;
+        font-size: 10px;
+        background-image: url(Image/Rectangle\ 3.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .Box7 img {
+        display: none;
+    }
+
+    .Box7 p {
+        top: 140px;
+        left: 10px;
+    }
+
+    .Box8 {
+        width: 200px;
+        height: 230px;
+        left: 290px;
+        top: 1290px;
+        border: 2px solid #FFFFFF;
+        font-size: 10px;
+        background-image: url(Image/Rectangle\ 3.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .Box8 img {
+        display: none;
+    }
+
+    .Box8 p {
+        top: 140px;
+        left: 10px;
+    }
+
+    .footer {
+        width: 1000px;
+        height: 400px;
+        left: 0px;
+        top: 1598px;
+
+
+    }
+
+    .text {
+        width: 95px;
+        height: 60px;
+        left: 370px;
+        top: 50px;
+        text-align: center;
+
+    }
+
+    .socials,
+    .footer-menue {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 1rem 0 3rem 0;
+
+        list-style: none;
+        flex-wrap: wrap;
+
+    }
+
+    .socials li,
+    .footer-menue li {
+        margin: 0 10px;
+        top: 190px;
+        list-style: none;
+        right: 10%;
+    }
+
+    .socials li a,
+    .footer-menue li a {
+        font-size: 1em;
+        color: #B9B9B9;
+        display: inline-block;
+        transition: 0.5s;
+
+    }
+
+    .socials li a:hover {
+        transform: translateY(-10px);
+    }
+
+    .socials li {
+        position: relative;
+        top: 220px;
+    }
+
+    .footer-menue li a {
+        font-size: 1em;
+        position: relative;
+        margin: 10px;
+        color: #B9B9B9;
+        display: inline-block;
+        transition: 0.5s;
+        text-decoration: none;
+
+
+        top: 270px;
+        left: 10px;
+    }
+
+
 }
